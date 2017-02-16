@@ -4,7 +4,7 @@ loading it all up just for in-time conversion seems the wrong approach, this pac
 This package is based on cmather:handlebars-server.
 
 ## Install the package
-`> meteor add pozylon:mjml-server`
+`> meteor add kaufmae:mjml-server`
 
 ## Usage
 

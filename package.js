@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'pozylon:mjml-server',
+  name: 'kaufmae:mjml-server',
   version: '0.1.0',
   summary: 'Allows MJML templates to be defined on the server in .mjml files',
   git: 'https://github.com/pozylon/meteor-mjml-server.git',
@@ -49,13 +49,11 @@ Package.onUse((api) => {
 Package.onTest((api) => {
   api.use([
     'tinytest',
-    'pozylon:mjml-server',
+    'kaufmae:mjml-server',
     'test-helpers',
   ], 'server');
 
   api.addFiles([
-    'mjml-server-tests.mjml',
-    'mjml-server-tests-2.mjml',
     'mjml-server-tests.js',
   ], 'server');
 });

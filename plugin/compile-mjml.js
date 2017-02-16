@@ -1,7 +1,7 @@
 /* global Plugin */
 /* global CachingCompiler */
 /* eslint-disable no-console */
-const mjml2html = require('mjml').mjml2html;
+const mjml2html = Npm.require('mjml').mjml2html;
 
 class MJMLCompiler extends CachingCompiler {
   constructor() {

@@ -14,7 +14,7 @@ the `MJML.templates` namespace.
 The templates need to be accessible to the server (i.e. put them inside your
 /server directory).
 
-The handlebars files should just be regular mjml files.
+The files should just be regular mjml files.
 
 ## License
 MIT

@@ -2,7 +2,7 @@ Package.describe({
   name: 'pozylon:mjml-server',
   version: '0.1.0',
   summary: 'Allows MJML templates to be defined on the server in .mjml files',
-  git: '',
+  git: 'https://github.com/pozylon/meteor-mjml-server.git',
   documentation: 'README.md',
 });
 

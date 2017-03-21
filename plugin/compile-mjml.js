@@ -20,7 +20,7 @@ class MJMLCompiler extends CachingCompiler {
   getCacheKey(file) { return [file.getSourceHash()]; } // eslint-disable-line
   compileHandlebar(file) { // eslint-disable-line
     const templateName = file.getBasename().replace(/(.mjml)/, '');
-    const html = mjml2html(file.getContentsAsString());
+    const html = mjml2html(file.getContentsAsString(), { minify: true });
     if (html.errors) html.errors.forEach(error => console.warn(error.formattedMessage));
     if (!html.html) return console.error(`could not compile${templateName}`);
     const content = EJSON.stringify(html.html);
